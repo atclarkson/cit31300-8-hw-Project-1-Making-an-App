@@ -2,3 +2,33 @@
   text-align: center;
 }
 
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.Box {
+  border: darkred solid 1px;
+  width: 250px;
+  height: 250px;
+}
+
+.Box img {
+  position: relative;
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+nav li {
+  padding: 10px 20px;
+  list-style-type: none;
+  border: darkred 1px solid;
+  margin: 5px;
+  cursor: pointer;
+}
