@@ -10,7 +10,7 @@ const Box = (props) => {
 
     const valueGems = [];
     for (let i = 0; i < props.val; i++) {
-        valueGems.push(<FontAwesomeIcon style={style} icon={faGem}/>);
+        valueGems.push(<FontAwesomeIcon key={i} style={style} icon={faGem}/>);
     }
 
 

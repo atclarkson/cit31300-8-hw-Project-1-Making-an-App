@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import data from "../Data";
 import Box from "./Box";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faTvRetro, faRabbitFast, faGamepadAlt, faCheckDouble, faLightSwitch} from '@fortawesome/pro-duotone-svg-icons'
+import {faTvRetro, faRabbitFast, faGamepadAlt, faCheckDouble} from '@fortawesome/pro-duotone-svg-icons'
 
 const Wrapper = () => {
 
