@@ -52,7 +52,7 @@ const Wrapper = () => {
                                 val={el.value}/>
                         );
                     }
-                    break;
+                    return null;
                 case "games":
                     if (game) {
                         return (
@@ -64,7 +64,7 @@ const Wrapper = () => {
                                 val={el.value}/>
                         );
                     }
-                    break;
+                    return null;
                 case "television":
                     if (tv) {
                         return (
@@ -76,9 +76,9 @@ const Wrapper = () => {
                                 val={el.value}/>
                         );
                     }
-                    break;
+                    return null;
                 default:
-                    break;
+                    return null;
             }
         }
     );

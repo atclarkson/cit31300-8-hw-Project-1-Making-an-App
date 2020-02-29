@@ -6,12 +6,19 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .Box {
   border: darkred solid 1px;
   width: 250px;
   height: 250px;
+}
+
+.BoxLink {
+  text-decoration: none;
+  color: black;
 }
 
 .Box img {
